@@ -34,7 +34,7 @@ def main():
     circuit = first_op * first_control * second_op * second_control * third_op * third_control * fourth_op * fourth_control
     print(circuit)
 
-    target_matrix = np.array([[0,0,1,0,1,1,1],
+    target_matrix = Matrix([[0,0,1,0,1,1,1],
                             [0,1,0,1,1,0,1],
                             [0,1,1,1,0,1,0],
                             [1,0,0,1,1,1,0],
